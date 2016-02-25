@@ -28,24 +28,6 @@ module ModelInfo
                 :disposiftion => "attachment; filename=#{params[:model_class]}-#{DateTime.now}.xml"
     end
 
-    def download_pdf
-      send_data @model_data.to_xml,
-                :type => 'text/xml; charset=iso-8859-1; header=present',
-                :disposiftion => "attachment; filename=#{params[:model_class]}-#{DateTime.now}.pdf"
-    end
-
-    def download_excel
-      send_data @model_data.to_xml,
-                :type => 'text/xml; charset=iso-8859-1; header=present',
-                :disposiftion => "attachment; filename=#{params[:model_class]}-#{DateTime.now}.xlsx"
-    end
-
-    def download_docx
-      send_data @model_data.to_xml,
-                :type => 'text/xml; charset=iso-8859-1; header=present',
-                :disposiftion => "attachment; filename=#{params[:model_class]}-#{DateTime.now}.docx"
-    end
-
     private
 
     def authenticate_request

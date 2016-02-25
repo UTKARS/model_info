@@ -20,7 +20,7 @@ To use this gem you just need to mount it in your route file *config/routes.rb*
 
 Then to go to the dashboard hit the url as:
 
-your_application_url */model_info/models*
+your_application_url */model_info/models* you will get all models of your application
 
 == Working Status
 

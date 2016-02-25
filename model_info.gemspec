@@ -14,6 +14,5 @@ Gem::Specification.new do |s|
   s.license     = "MIT"
   s.homepage    = 'https://github.com/nitanshu/model_info'
   s.files = Dir["{app,config,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
-
-  s.add_dependency 'kaminari', '0.16.3'
+  s.add_dependency 'kaminari'
 end
