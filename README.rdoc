@@ -22,6 +22,10 @@ Then to go to the dashboard hit the url as:
 
 your_application_url */model_info/models* you will get all models of your application
 
+== Downloads
+
+You can download *CSV* *JSON* and *XML* formats of your model and associated model.
+
 == Working Status
 
 The download option for PDF, EXCEL and DOCX would be provided in an initializer file to make it true or false and also I will provide site logo and title option in an initializer file.
